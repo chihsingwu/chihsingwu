@@ -1,5 +1,5 @@
 # WSM-Engine: Interference Field Simulation Framework (Preview)
-## ANG LUTENG   WU,CHI HSING
+## ANG LUTENG and WU,CHI HSING
 ## 🌌 Core Philosophy
 
 Conventional statistics assume fixed degrees of freedom and rely on deterministic estimation.  
