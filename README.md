@@ -1,15 +1,14 @@
-
 # WSM-Engine: Interference Field Simulation Framework (Preview)
-ANG LUTENG   WU,CHI HSING
-This repository contains a computational simulation engine inspired by an ongoing theoretical framework known as **Waveform Statistical Mechanics (WSM)**. While the full theoretical paper is currently under academic review, this engine demonstrates a simplified numerical model ofngine: Interference Field Simulation Fraand以下是符合策略 B（僅公開工程核心、避免理論泄露）的 GitHub 公開說明文字與over a 2D mesh.
-工程核心、避免理論泄露 
-This project does心、避免理論泄露）disclose the core mathematical formulation of WSM. All expressions used here are illustrative and for simulation demonstration only.
+## ANG LUTENG   WU,CHI HSING
+## 🌌 Core Philosophy
 
-## Features
+Conventional statistics assume fixed degrees of freedom and rely on deterministic estimation.  
+WSM breaks away from this foundation by proposing:
 
-- Complex-valued wave propagation with amplitude decay and phase drift
-- Tensor-based tension field overlay (non-physical mock-up)
-- Modular structure for future integration with real statistical or physical models
+- **Interference-based Probability Fields**: Estimates behave like waveforms, not static points.
+- **Tension-Guided Inference**: Fields respond dynamically to local entropy and cognitive curvature.
+- **Semantic Collapse**: Inference may destructively fail at interference nodes, similar to phase cancellation.
+- **Anti-Laplace Principle**: The model assumes no omniscient observer; uncertainty is not just noise — it is structural.
 
 ## Applications
 
@@ -32,7 +31,7 @@ Do not reverse-engineer or infer unpublished formulas based on this repository.
 MIT (engine code only)  
 For scientific use only — redistribution of theoretical core concepts is prohibited.
 
-2. Python 模擬引擎簡化骨架：engine/core.py
+2. Python frame：engine/core.py
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,14 +59,4 @@ class WaveField:
         plt.colorbar()
         plt.show()
 
-✅ 建議：
- • 放入倉庫目錄結構如下：
 
-WSM-Engine/
-├── engine/
-│   └── core.py
-├── media/
-│   └── sample_wave_output.png
-├── README.md
-├── LICENSE
-└── requirements.txt
